@@ -26,11 +26,42 @@ AWS Well Architected framework:
 	
 **************************************************************************************************************************
 VPC
+**************************************************************************************************************************
 WAF
+	Operates at level 7(HTTP)
+	Can be deployed at ALB, API Gateway, CloudFront
+	Provides security from
+		XSS - Cross site scrioting
+		SQL Injection
+	Below security measures can be applied
+		1. Rate based
+		2. Rule based (ip, http header, http body, URI sreing)
+		3. Origin based
+		4. Geo matching size constraints
+**************************************************************************************************************************
 Shield
+	
+**************************************************************************************************************************
+AWS Network firewall
+	Provides security from layer 3 to layer 7
+	Works at VPC level - Protects entire VPC
+**************************************************************************************************************************
+AWS Firewall Manager
+	Manages security rules in all accounts of AWS organization
+	
+	It manages
+		VPC security groups i.e. security groups, ALB
+		Shield
+		WAF
+		Network firewall
+
+	Rules are automatically applied as they are added into an org
+**************************************************************************************************************************
+
 s3 one zone vs others
 AWS support plans
 EBS, EFS pricing
+AWS Resource access manager
 
 
 cloud trail logs, S3, Storagte gateway - by default encrypted
