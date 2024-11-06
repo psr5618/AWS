@@ -57,13 +57,6 @@ AWS Firewall Manager
 
 	Rules are automatically applied as they are added into an org
 **************************************************************************************************************************
-
-s3 one zone vs others
-AWS support plans
-EBS, EFS pricing
-AWS Resource access manager
-
-
 cloud trail logs, S3, Storagte gateway - by default encrypted
 Policy components -> SID(optional), Effect, Action, Resource, Condition(optional), Principal
 
@@ -86,7 +79,7 @@ NACL ->  Subnet level,
 		 An NACL can have multiple subnets however an subnet can be a part of just one NACL,
 		 Rules are evaluated in incremental order,
 		 There is a quota on how many NACL can be created in a VPC
-		 
+************************************************************************************************************************** 
 AWS Identity and Access Management (AWS IAM), Amazon CloudFront, Amazon Route 53 and AWS Web Application Firewall (AWS WAF) 
 are some of the global services.
 **************************************************************************************************************************
@@ -121,11 +114,7 @@ EC2 Instances can be purchased in following purchasing models:
 					it reserving the capacity of ec2 for on-demand
 	
 		 
-S3 transfer accelerator ->
 
-landing zone, control tower
-various aws managed services, marketplace, apn?
-Recovery ways like pilot light etc
 
 **************************************************************************************************************************
 Disaster recovery starategies:
@@ -134,9 +123,19 @@ Disaster recovery starategies:
 	3. Warm Standby -  Full app at minimum size
 	4. Multi-Site/Hot-Site - Full version at full size
 **************************************************************************************************************************
-AWS Elastic disaster recovery service:
+
+**************************************************************************************************************************
+various aws managed services, marketplace, apn?
 **************************************************************************************************************************
 AWS Control tower
+S3 transfer accelerator ->
+AWS Elastic disaster recovery service:
+landing zone, control tower
+Recovery ways like pilot light etc
+s3 one zone vs others
+AWS support plans
+EBS, EFS pricing
+AWS Resource access manager
 
 
 
