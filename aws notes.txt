@@ -112,9 +112,6 @@ EC2 Instances can be purchased in following purchasing models:
 				*******************************************************************************************
 				i. Capacity Reservations
 					it reserving the capacity of ec2 for on-demand
-	
-		 
-
 
 **************************************************************************************************************************
 Disaster recovery starategies:
@@ -123,9 +120,20 @@ Disaster recovery starategies:
 	3. Warm Standby -  Full app at minimum size
 	4. Multi-Site/Hot-Site - Full version at full size
 **************************************************************************************************************************
-
+AWS marketplace:
+	AWS marketplace have thousands of software listings from independent software vendor
+	Following things are sold on AWS marketplace.
+		Custom AMIs
+		SAAS products
+		CloudFormation template
+		Containers
+		
+	Note: Reserved instances can be sold or purchased at the AWS Reserved instance marketplace.
 **************************************************************************************************************************
-various aws managed services, marketplace, apn?
+AWS Professional Services & Partner Network:
+	
+**************************************************************************************************************************
+aws managed services
 **************************************************************************************************************************
 AWS Control tower
 S3 transfer accelerator ->
