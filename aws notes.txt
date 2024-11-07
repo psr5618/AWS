@@ -144,6 +144,16 @@ s3 one zone vs others
 AWS support plans
 EBS, EFS pricing
 AWS Resource access manager
-
+cloud front
+Access keys in 
+Availability & Scalability sol using regions and az
+Migration strategy
+vpc at multiple regions?
+scaling policies
+AWS MSK
+AWS Data Exchange
+AWS Data Pipeline
+Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS).-
+Amazon OpenSearch Service
 
 
