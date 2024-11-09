@@ -135,6 +135,15 @@ AWS Professional Services & Partner Network:
 **************************************************************************************************************************
 aws managed services
 **************************************************************************************************************************
+AWS MSK Service: Used to run apache Kafka on AWS, Managed service
+				
+AWS Migration strategies: Retire, Retain, Relocate, Rehost, Re-platform, Repurchase, Refactor
+
+Availability & Scalability sol using regions and az
+vpc at multiple regions? -> A VPC can only be in a region however, a vpc can be connected with another vpc using peering.
+scaling policies ->
+Access keys in 
+
 AWS Control tower
 S3 transfer accelerator ->
 AWS Elastic disaster recovery service:
@@ -145,12 +154,6 @@ AWS support plans
 EBS, EFS pricing
 AWS Resource access manager
 cloud front
-Access keys in 
-Availability & Scalability sol using regions and az
-Migration strategy
-vpc at multiple regions?
-scaling policies
-AWS MSK
 AWS Data Exchange
 AWS Data Pipeline
 Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS).-
