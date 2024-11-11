@@ -139,10 +139,14 @@ AWS MSK Service: Used to run apache Kafka on AWS, Managed service
 				
 AWS Migration strategies: Retire, Retain, Relocate, Rehost, Re-platform, Repurchase, Refactor
 
+There are three ways to access AWS
+	Using management console: Access Keys
+	Using CLI: Access Keys
+	Using SDK: Access Keys
+
 Availability & Scalability sol using regions and az
 vpc at multiple regions? -> A VPC can only be in a region however, a vpc can be connected with another vpc using peering.
-scaling policies ->
-Access keys in 
+scaling policies
 
 AWS Control tower
 S3 transfer accelerator ->
@@ -158,5 +162,6 @@ AWS Data Exchange
 AWS Data Pipeline
 Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS).-
 Amazon OpenSearch Service
+consolidated billing vs aws org
 
 
