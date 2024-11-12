@@ -147,7 +147,28 @@ There are three ways to access AWS
 Availability & Scalability sol using regions and az
 vpc at multiple regions? -> A VPC can only be in a region however, a vpc can be connected with another vpc using peering.
 scaling policies
+**************************************************************************************************************************
 
+IAM best practices:
+
+• Lock away your AWS account root user access keys
+• Create individual IAM users
+• Use groups to assign permissions to IAM users
+• Grant least privilege
+• Get started using permissions with AWS managed policies
+• Use customer managed policies instead of inline policies
+• Use access levels to review IAM permissions
+• Configure a strong password policy for your users
+• Enable MFA
+• Use roles for applications that run on Amazon EC2 instances
+• Use roles to delegate permissions
+• Do not share access keys
+• Rotate credentials regularly
+• Remove unnecessary credentials
+• Use policy conditions for extra security
+• Monitor activity in your AWS account
+• Video presentation about IAM best practices
+**************************************************************************************************************************
 AWS Control tower
 S3 transfer accelerator ->
 AWS Elastic disaster recovery service:
