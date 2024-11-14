@@ -183,6 +183,12 @@ Amazon OpenSearch Service:
 
 **************************************************************************************************************************
 Some services that can be reserved: EC2, DynamoDB, ElastiCache, RDS, and RedShift.
+AWS Config allows users to deploy application configuration changes quickly and reliably without needing to write additional 
+code or restart services.
+IPs can not be blocked at security group
+
+Amazon MemoryDB
+Does cloudfront use direct connect somehow?
 AWS Control tower
 S3 transfer accelerator ->
 AWS Elastic disaster recovery service:
@@ -208,4 +214,11 @@ Data migration services and their capacities
 AWS Amplify
 AWS AppSync
 Amazon EventBridge
+VPC Flow Logs
+VPC Endpoint
+VPC network interface
 
+AWS Pricing Calculator
+Cost Explorer
+AWS Billing and Cost Management dashboard
+AWS Cost and Usage Report.
