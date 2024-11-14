@@ -148,6 +148,16 @@ Availability & Scalability sol using regions and az
 vpc at multiple regions? -> A VPC can only be in a region however, a vpc can be connected with another vpc using peering.
 scaling policies
 **************************************************************************************************************************
+Data Streaming: 
+	Kinesis = real time big data streaming. It is a managed service to collect, process and analyze real time streaming data
+			  at any scale
+	
+	Kinesis Data Stream: low latency streaming to ingest data at scale from hundreads of thousands of sources.
+	Kinesis Data Firehose: Load stream of data into S3, Redshift, ElasticSearch etc.
+	Kinesis Data Analytics: perform real time analytics on streams using SQL.
+	Kinesis Video Streams: monitor real-time video stream for analytics or ML.
+
+**************************************************************************************************************************
 
 IAM best practices:
 
@@ -169,11 +179,14 @@ IAM best practices:
 • Monitor activity in your AWS account
 • Video presentation about IAM best practices
 **************************************************************************************************************************
+Amazon OpenSearch Service:
+
+**************************************************************************************************************************
+Some services that can be reserved: EC2, DynamoDB, ElastiCache, RDS, and RedShift.
 AWS Control tower
 S3 transfer accelerator ->
 AWS Elastic disaster recovery service:
 landing zone, control tower
-Recovery ways like pilot light etc
 s3 one zone vs others
 AWS support plans
 EBS, EFS pricing
@@ -181,8 +194,18 @@ AWS Resource access manager
 cloud front
 AWS Data Exchange
 AWS Data Pipeline
-Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS).-
-Amazon OpenSearch Service
+Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS)
 consolidated billing vs aws org
-
+Redshift
+storage gateway
+AWS Activate for Startups
+Amazon Simple Email Service (Amazon SES)
+AWS DMS vs physical migration devices	
+AWS Billing Conductor
+AWS Service Catalog
+APN VS AWS Organisations
+Data migration services and their capacities
+AWS Amplify
+AWS AppSync
+Amazon EventBridge
 
