@@ -179,16 +179,55 @@ IAM best practices:
 • Monitor activity in your AWS account
 • Video presentation about IAM best practices
 **************************************************************************************************************************
-Amazon OpenSearch Service:
+Amazon OpenSearch Service: log analytics, full text search, application monitoring, and more. OpenSearch provides several APIs
+							Its scalable, secure & reliable. Works on cluster of nodes. 
+							
+OpenSearch Service is ideal for querying and searching large amounts of data. 
+Organizations can use OpenSearch Service to do the following:
+
+Analyze activity logs, such logs for customer facing applications or websites
+Analyze CloudWatch Logs with OpenSearch Service
+Analyze product usage data coming from various services and systems
+Analyze social media sentiments, CRM data, and find trends for your brand and products
+Analyze data stream updates from other AWS services, such as Amazon Kinesis Data Streams and Amazon DynamoDB
+Utilize a rich search and navigation experience.
+Monitor usage for mobile applications
 
 **************************************************************************************************************************
 Some services that can be reserved: EC2, DynamoDB, ElastiCache, RDS, and RedShift.
 AWS Config allows users to deploy application configuration changes quickly and reliably without needing to write additional 
 code or restart services.
 IPs can not be blocked at security group
+**************************************************************************************************************************
+VPC Flow Logs - Check pdf
+VPC Endpoint & VPC network interface - https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html
 
+**************************************************************************************************************************
+AWS Amplify
+AWS AppSync
+Amazon EventBridge
+AWS Data Exchange
+AWS Data Pipeline
 Amazon MemoryDB
-Does cloudfront use direct connect somehow?
+Redshift
+Amazon Simple Email Service (Amazon SES)
+AWS Service Catalog
+AWS Resource access manager
+cloud front
+
+**************************************************************************************************************************
+
+AWS Pricing Calculator
+Cost Explorer
+AWS Billing and Cost Management dashboard
+AWS Cost and Usage Report
+AWS Billing Conductor
+consolidated billing vs aws org
+
+
+**************************************************************************************************************************
+
+Does cloudfront use direct connect somehow? nope
 AWS Control tower
 S3 transfer accelerator ->
 AWS Elastic disaster recovery service:
@@ -196,29 +235,11 @@ landing zone, control tower
 s3 one zone vs others
 AWS support plans
 EBS, EFS pricing
-AWS Resource access manager
-cloud front
-AWS Data Exchange
-AWS Data Pipeline
 Examples of Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS)
-consolidated billing vs aws org
-Redshift
 storage gateway
 AWS Activate for Startups
-Amazon Simple Email Service (Amazon SES)
 AWS DMS vs physical migration devices	
-AWS Billing Conductor
-AWS Service Catalog
 APN VS AWS Organisations
 Data migration services and their capacities
-AWS Amplify
-AWS AppSync
-Amazon EventBridge
-VPC Flow Logs
-VPC Endpoint
-VPC network interface
 
-AWS Pricing Calculator
-Cost Explorer
-AWS Billing and Cost Management dashboard
-AWS Cost and Usage Report.
+
