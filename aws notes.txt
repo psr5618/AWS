@@ -241,5 +241,8 @@ AWS Activate for Startups
 AWS DMS vs physical migration devices	
 APN VS AWS Organisations
 Data migration services and their capacities
-
+elastic IP
+Cloud delivery model
+How RDS db is scaled?
+Load balancing with various Dbs 
 
